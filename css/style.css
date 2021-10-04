@@ -949,7 +949,7 @@
   font-size: 75%;
 }
 
-@media (min-width: 641px) and (max-width: 1250px) {
+@media (min-width: 751px) and (max-width: 1250px) {
   .header {
     background-image: url(../images/banner-bg-tablet.jpg);
   }
@@ -1100,7 +1100,7 @@
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 750px) {
   .header {
     background-image: url(../images/banner-mobile.jpg);
   }
