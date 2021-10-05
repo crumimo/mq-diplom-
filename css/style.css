@@ -451,7 +451,7 @@
 }
 
 .post-content {
-  width: 367px;
+  max-width: 367px;
   padding-left: 30px;
 }
 
@@ -1173,7 +1173,6 @@
   }
   
   .posts {
-    max-width: 586px;
     
     margin: 0 auto 35px;
   }
@@ -1182,6 +1181,10 @@
     flex-direction: column;
     border-bottom: 3px solid #eeeeee;
     padding-bottom: 22px;
+  }
+
+  .post-content {
+    max-width: 586px;
   }
 
   .post:nth-child(n+2) {
@@ -1213,6 +1216,7 @@
   }
   
   .post-text {
+    line-height: 1.43em;
     font-size: 14px;
   }
   
