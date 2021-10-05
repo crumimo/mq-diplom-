@@ -443,6 +443,7 @@
 
 .posts {
   margin-bottom: 63px;
+  justify-content: space-between;
 }
 .post {
   display: flex;
@@ -881,10 +882,10 @@
 
 .footer {
   text-align: center;
+  margin: 0 auto;
+    max-width: 1200px;
 }
 .articles-socials {
-  
-  
   margin: auto;
   background-color: #f4f7f6;
 }
@@ -895,8 +896,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto 73px;
-  
 }
 
 .socials-link {
@@ -1093,6 +1092,7 @@
   .footer {
   margin-top: 23px;
   padding: 0 34px;
+  max-width: 730px;
   }
   
   .socials {
@@ -1166,15 +1166,16 @@
   
   .content {
     flex-direction: column;
-    max-width: 330px;
+    justify-content: space-around;
+   
     margin-top: 44px;
     padding: 0 17px;
   }
   
   .posts {
-    max-width: 330px;
-    margin-right: 0;
-    margin-bottom: 35px;
+    max-width: 586px;
+    
+    margin: 0 auto 35px;
   }
   
 .post {
@@ -1187,7 +1188,7 @@
     margin-top: 35px;
   }
   
-  .post-image {
+  .foto {
     min-width: 260px;
     max-width: 100%;
     min-height: 200px;
@@ -1218,6 +1219,8 @@
   .sidebar {
     width: auto;
     max-width: 460px;
+    margin: auto;
+   
   }
   
   title-sidebar {
@@ -1266,10 +1269,10 @@
     padding: 0 15px;
   }
 
-  
   .socials {
     margin-bottom: 51px;  
   }
+
   .socials-link-tumblr {
     margin-right: 0;
   }
